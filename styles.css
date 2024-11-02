@@ -1,10 +1,16 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url('fonts/SF-Pro-Display-Semibold.otf') format('opentype');
+    font-weight: 600; /* Assuming 600 is for Semibold */
+    font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'SF Pro', sans-serif;
 }
 
 body{
@@ -61,6 +67,7 @@ body{
     font-size: 70px;
     font-weight: 500;
     text-align: right;
+    font-family: 'SF Pro', sans-serif;
 }
 
 .home-content p{
