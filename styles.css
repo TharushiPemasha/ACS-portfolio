@@ -254,8 +254,8 @@ button{
     padding: 13px 30px;
     border-radius: 8px;
     transition: .5s;
-    margin-top: 130px;
-    margin-left: -270px;
+    margin-top: 250px;
+    margin-left: -540px;
     cursor: pointer;
     /* position: absolute; */
     /* bottom: 5px; */
@@ -287,6 +287,78 @@ button:hover{
     margin: 8px 0 10px;
     padding-right: 100px;
 }
+
+.a13{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 1350px;
+}
+.a19{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 650px;
+    top: 1350px;
+}
+/* .a18{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 250px;
+    top: 1700px;
+} */
+.a14{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 1100px;
+    top: 1350px;
+}
+.a7{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 1950px;
+}
+.a3{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 650px;
+    top: 1950px;
+}
+
+.a10{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 1100px;
+    top: 1950px;
+}
+.a9{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 2550px;
+}
+.a12{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 650px;
+    top: 2550px;
+}
+.a2{
+    width: 390px;
+    height: auto;
+    position: absolute;
+    left: 1100px;
+    top: 2550px;
+}
 /* attribute selectors */
 a[target="_blank"] {
     color: #d13a46;
@@ -304,20 +376,20 @@ img[alt="description"] {
 /* PROJECT */
 .project h1{
     position: absolute;
-    left: 40%;
-    top: 150px;
+    left: 45%;
+    top: 120px;
     text-align: center;
 }
 .p1{
     width: 500px;
     height: 350px;
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 300px;
 }
 .pp1{
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 700px;
     color: black;
     font-size: 19px;
@@ -329,12 +401,12 @@ img[alt="description"] {
     width: 500px;
     height: 350px;
     position: absolute;
-    left: 800px;
+    left: 1000px;
     top: 300px;
 }
 .pp2{
     position: absolute;
-    left: 800px;
+    left: 1000px;
     top: 700px;
     color: black;
     font-size: 19px;
@@ -345,12 +417,12 @@ img[alt="description"] {
     width: 500px;
     height: 350px;
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 800px;
 }
 .pp3{
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 1200px;
     color: black;
     font-size: 19px;
@@ -362,12 +434,12 @@ img[alt="description"] {
     width: 500px;
     height: 350px;
     position: absolute;
-    left: 800px;
+    left: 1000px;
     top: 800px;
 }
 .pp4{
     position: absolute;
-    left: 800px;
+    left: 1000px;
     top: 1200px;
     color: black;
     font-size: 19px;
@@ -379,12 +451,12 @@ img[alt="description"] {
     width: 500px;
     height: 350px;
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 1300px;
 }
 .pp5{
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 1700px;
     color: black;
     font-size: 19px;
@@ -396,12 +468,12 @@ img[alt="description"] {
     width: 500px;
     height: 350px;
     position: absolute;
-    left: 800px;
+    left: 1000px;
     top: 1300px;
 }
 .pp6{
     position: absolute;
-    left: 800px;
+    left: 1000px;
     top: 1700px;
     color: black;
     font-size: 19px;
@@ -413,12 +485,12 @@ img[alt="description"] {
     width: 500px;
     height: 350px;
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 1800px;
 }
 .pp7{
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 2200px;
     color: black;
     font-size: 19px;
@@ -431,12 +503,12 @@ img[alt="description"] {
     width: 500px;
     height: 350px;
     position: absolute;
-    left: 800px;
+    left: 1000px;
     top: 1800px;
 }
 .pp8{
     position: absolute;
-    left: 800px;
+    left: 1000px;
     top: 2200px;
     color: black;
     font-size: 19px;
@@ -456,7 +528,7 @@ img[alt="description"] {
     padding-bottom: 50px;
 }
 .contact{
-    position: absolute;
+    background-color: #000000;
     top: 2450px;
     width: 100%;
 }
@@ -506,8 +578,8 @@ textarea {
 button {
     position: absolute;
     height: 40px;
-    top: 500px;
-    left: 270px;
+    top: 380px;
+    left: 540px;
     background-color: #d13a46;
     color: #fff;
     padding: 0.75rem 1.5rem;
@@ -593,4 +665,57 @@ button:hover {
 .contact-sci a:hover::before{
     width: 100%;
     
+}
+footer {
+    position: absolute;
+    top: 970px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-section {
+    flex: 1;
+    margin: 1rem;
+    min-width: 200px;
+}
+.footer-section h3 {
+    margin-bottom: 1rem;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.copyright {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid #555;
 }
